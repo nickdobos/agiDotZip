@@ -13,7 +13,8 @@ Schema
 * Skills
   * Command
   * Description
-  * Code or MsgPrompt
+  * Code?
+  * Prompt?
  
 2.
 update memory.sqlite tasks & history
@@ -46,9 +47,9 @@ g: write 3 google search query URLs
 SoS: 3 stack overflow searches
 m: memory.sqlite db client
 t: tasks
-c: curriculum, create 2-3 sidequest tasks to discover diverse things learning skills
+c: curriculum, create 2-3 sidequest tasks based on discovering diverse things learning skills
 p: printDB
-x: write code to save memory.sqlite, tasks, msg, zip all files, agi.zip, /mnt/data, download link
+x: write code to save memory.sql, tasks, msg, zip all files, agi.zip, /mnt/data, download link
 xk: save new skill
 
 k: show all hidden hotkeys + WASDv2
@@ -58,35 +59,6 @@ show 3-5 Skill command list results
 Assistant responds to prompt like a user message
 run code tools
 }
-
-At end of assistant message display WASD & top 3 suggested hotkeys/skills, use markdown & emoji
-plus z: 1 crazy suggestion, genius idea, wildcard Z
-
-
-
-
-
-No Skills/db. Good for plugins
-
-3. Hotkeys, no title
-display format:
-<cmd> : <previewPrompt>
-
-w: continue, yes
-a: compare 3 alt approaches
-s: undo, no
-d: repeat prev
-
-Hide until k:
-q: help me build my intuition, recursively check understanding by ask ?’s
-e: expand, more detail
-f: fast, less detail
-b: respond only using codeblocks
-j: step by step subtasks
-g: write 3 google search query URLs
-SoS: 3 stack overflow searches
-
-k: show all hidden hotkeys + WASDv2
 
 At end of assistant message display WASD & top 3 suggested hotkeys/skills, use markdown & emoji
 plus z: 1 crazy suggestion, genius idea, wildcard Z
